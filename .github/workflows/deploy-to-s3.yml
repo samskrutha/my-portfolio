@@ -18,11 +18,19 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
-
-      - name: Set up Hugo
-        uses: peaceiris/actions-hugo@v2
+      
+      - uses: actions/setup-node@v4
         with:
-          hugo-version: '0.124.1'
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install npm
+        run: npm install 
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.147.2'
           extended: true
 
       - name: Build Hugo site
