@@ -26,7 +26,7 @@ draft = false
 
 {{< about-section
     title="About Me"
-    content="I'm a Berlin-based DevOps engineer with over 11 years of IT experience. I began as a backend developer, working across diverse domains, before transitioning into DevOps to pursue my passion for automation and systems design. My mission is to make infrastructure reliable, observable, and developer-friendly.<br/><br/>Outside of tech, I'm a dedicated family man and spiritual learner, striving to build a life that's not only efficient but meaningful."
+    content="I am a Berlin-based DevOps engineer with over 11 years of IT experience. I began as a backend developer, working across diverse domains, before transitioning into DevOps to pursue my passion for automation and systems design. My mission is to make infrastructure reliable, observable, and developer-friendly.<br/><br/>Outside of tech, I love spending time with my family and I strive to build a life that is not only efficient but also meaningful."
     button_icon="icon-user"
     button_text="Download My CV"
     button_url="/cv/samskrutha-swamy-resume.pdf"
