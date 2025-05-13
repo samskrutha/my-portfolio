@@ -12,16 +12,15 @@
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.analytics.googleAnalytics.code }}"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', '{{ .Site.Params.analytics.googleAnalytics.code}} ');
-</script>
+      gtag('config', '{{ .Site.Params.analytics.googleAnalytics.code }}');
+    </script>
   {{- end }}
 {{- end }}
-
 
 <title>
   {{ if .IsHome }}
@@ -33,10 +32,13 @@
 
 <meta name="description" content="{{ i18n "head_description" }}" />
 <meta name="generator-mode" content="{{ hugo.Environment }}" />
+
 {{- $critical := resources.Get "css/critical.css" | resources.Minify }}
 <style data-generator="critical-css">
-{{- $critical.Content | safeCSS }}
-</style> {{- $cssResources := slice }}
+  {{- $critical.Content | safeCSS }}
+</style>
+
+{{- $cssResources := slice }}
 {{- range .Site.Params.plugins.css }}
   {{- if findRE "^http" .URL }}
     <link rel="stylesheet" href="{{ .URL | absURL }}" />
@@ -58,46 +60,39 @@
     href="{{ $css.RelPermalink }}"
     as="style"
     onload="this.onload=null;this.rel='stylesheet'"
-    {{ if hugo.IsProduction }}
-      integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous"
-    {{ end }} />
+    {{ if hugo.IsProduction }}integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous"{{ end }} />
   <noscript>
     <link
       rel="stylesheet"
       href="{{ $css.RelPermalink }}"
-      {{ if hugo.IsProduction }}
-        integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous"
-      {{ end }} />
+      {{ if hugo.IsProduction }}integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous"{{ end }} />
   </noscript>
 {{- end }}
-{{/* SCSS block disabled to fix build error on GitHub Actions
-  {{- range .Site.Params.plugins.scss }}
-    {{- $scss := resources.Get .URL }}
-    {{- $style := false }}
-    {{- if $scss }}
-      {{- $style = $scss | css.Sass }}
-    {{- else }}
-      {{- warnf "SCSS file not found: %s" .URL }}
-    {{- end }}
-    {{- if hugo.IsProduction }}
-      {{- $style = $scss | css.Sass | resources.Minify | resources.Fingerprint }}
-    {{- end }}
-    {{- if $style }}
-      <link
-        rel="stylesheet"
-        href="{{ $style.Permalink }}"
-        integrity="{{ $style.Data.Integrity }}"
-        crossorigin="anonymous" />
-    {{- end }}
-  {{- end }}
-  */}}
-  
 
-<!-- printed only it not disabled -->
+{{/* Disabled SCSS block causing Sass error in GitHub Actions
+{{- range .Site.Params.plugins.scss }}
+  {{- $scss := resources.Get .URL }}
+  {{- $style := false }}
+  {{- if $scss }}
+    {{- $style = $scss | css.Sass }}
+  {{- else }}
+    {{- warnf "SCSS file not found: %s" .URL }}
+  {{- end }}
+  {{- if hugo.IsProduction }}
+    {{- $style = $scss | css.Sass | resources.Minify | resources.Fingerprint }}
+  {{- end }}
+  {{- if $style }}
+    <link
+      rel="stylesheet"
+      href="{{ $style.Permalink }}"
+      integrity="{{ $style.Data.Integrity }}"
+      crossorigin="anonymous" />
+  {{- end }}
+{{- end }}
+*/}}
+
 {{- if not .Site.Params.colorTheme.auto.disable }}
-  {{/* Inline script to prevent theme flash */}}
   <script>
-    // Simple script to set initial theme to prevent flash
     (function() {
       const storedTheme = localStorage.getItem('theme');
       if (storedTheme) {
@@ -125,7 +120,6 @@
 {{- end }}
 
 {{- if .Site.Params.analytics.google_tag_manager.enabled }}
-  <!-- Google tag (gtag.js), google analytics -->
   <script
     defer
     src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.analytics.google_tag_manager.code }}"></script>
@@ -134,6 +128,7 @@
 {{- else }}
   <!-- no google tag displayed -->
 {{- end }}
+
 <script src="{{ "js/library/lozad.min.js" | absURL }}"></script>
 
 {{ template "_internal/opengraph.html" . }}
