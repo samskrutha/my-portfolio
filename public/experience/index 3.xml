@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Experience on </title>
+    <link>http://localhost:1313/experience/</link>
+    <description>Recent content in Experience on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/experience/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/experience/job-3/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/experience/job-3/</guid>
+      <description>&lt;h2 id=&#34;senior-devops-engineer&#34;&gt;Senior DevOps Engineer&lt;/h2&gt;&#xA;&lt;p&gt;At Perfood GmbH, I led the development of a robust, production-grade Kubernetes platform on &lt;strong&gt;Google Cloud Platform (GCP)&lt;/strong&gt; to support our digital health products. I designed and implemented GitOps-driven infrastructure using ArgoCD, empowering teams to deploy confidently with consistency and traceability.&lt;/p&gt;&#xA;&lt;p&gt;My work focused on infrastructure automation using &lt;strong&gt;Terraform&lt;/strong&gt; and &lt;strong&gt;Crossplane&lt;/strong&gt;, secure secret management with &lt;strong&gt;Vault&lt;/strong&gt;, and observability through a fully integrated stack: &lt;strong&gt;Prometheus, Grafana, Loki, and Thanos&lt;/strong&gt;. I also architected automated backup strategies using Kubernetes cron jobs and GCS buckets, ensuring resilience and recoverability for both PostgreSQL and application data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/experience/job-2/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/experience/job-2/</guid>
+      <description>&lt;h2 id=&#34;lead-devops-engineer&#34;&gt;Lead DevOps Engineer&lt;/h2&gt;&#xA;&lt;p&gt;At Hexad GmbH, I played a key role in designing, building, and maintaining scalable, secure DevOps platforms for multiple client-facing applications. As the Lead DevOps Engineer, I led the DevOps transformation efforts within cross-functional teams, aligning infrastructure automation with agile delivery processes.&lt;/p&gt;&#xA;&lt;p&gt;I was responsible for architecting and implementing CI/CD pipelines using GitLab CI, enabling faster and more reliable delivery cycles across development, staging, and production environments. My expertise in Terraform, Helm, and Kubernetes (EKS) allowed us to standardize infrastructure provisioning and application deployments across projects, significantly reducing configuration drift and manual errors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/experience/job-1/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/experience/job-1/</guid>
+      <description>&lt;h2 id=&#34;senior-software-engineer&#34;&gt;Senior Software Engineer&lt;/h2&gt;&#xA;&lt;p&gt;This role marked the foundation of my professional growth in software engineering. During my tenure at HCL Global Systems Inc., I worked on full-stack development for enterprise applications, collaborating closely with cross-functional teams across design, QA, and infrastructure.&lt;/p&gt;&#xA;&lt;p&gt;I was responsible for building and maintaining core modules for web-based systems used by Fortune 500 clients, ensuring high availability and performance. My time at HCL also gave me exposure to version control workflows, RESTful API integration, and real-world agile methodologies, which shaped my collaborative and structured approach to development.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

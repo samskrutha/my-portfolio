@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<meta name="theme-color" content="#478079" />
+
+
+<title>
+  
+    Devops Journey |
+  
+  Samskrutha Swamy - Lead DevOps Engineer
+</title>
+
+<meta name="description" content="Portfolio of Samskrutha Swamy." />
+<meta name="generator-mode" content="development" />
+<style data-generator="critical-css">
+</style>
+  <link
+    rel="preload"
+    href="/css/bundle.css"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+     />
+  <noscript>
+    <link
+      rel="stylesheet"
+      href="/css/bundle.css"
+       />
+  </noscript>
+  
+    <link
+      rel="stylesheet"
+      href="http://localhost:1313/scss/adritian.css"
+      integrity=""
+      crossorigin="anonymous" />
+
+
+
+  <script defer src="http://localhost:1313/js/color-modes.js"></script>
+  
+<script src="http://localhost:1313/js/library/lozad.min.js"></script>
+
+<meta property="og:url" content="http://localhost:1313/blog/devops-journey/">
+  <meta property="og:site_name" content="Samskrutha Swamy – DevOps Engineer">
+  <meta property="og:title" content="Devops Journey">
+  <meta property="og:description" content="I never planned to become a DevOps engineer.
+In fact, I started my career over a decade ago as a backend developer, building APIs and systems for U.S. clients. I spent six years immersed in clean code, business logic, and scaling server-side applications. But as time passed, I realized that writing code was only part of building reliable software — the real magic (and sometimes the chaos) happened after deployment.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-05-05T22:14:13+02:00">
+    <meta property="article:modified_time" content="2025-05-05T22:14:13+02:00">
+    <meta property="article:tag" content="Devops">
+    <meta property="article:tag" content="General">
+    <meta property="og:image" content="http://localhost:1313/img/og-img.png">
+
+
+    
+
+</head>
+
+<body class=" page-devops-journey">
+    
+
+
+<a href="#main-content" 
+    class="skip-to-content-link"
+    aria-label='Skip to main content'>
+  Skip to main content
+</a>
+
+<header class="header fixed-top rad-animation-group" id="header">
+  <div class="container rad-fade-in">
+    <nav class="navbar bd-navbar navbar-expand-lg navbar-light p-0">
+      <div class="container-fluid">
+        <a class="navbar-brand mx-auto" href="/">
+            
+          <span>Samskrutha</span>
+          <span>Swamy</span>
+        </a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent, #header"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label='Toggle navigation'
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-lg-auto">
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/index.html#about"
+                >
+                  ABOUT
+                </a
+              >
+            </li>
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/index.html#experience-single"
+                >
+                  EXPERIENCE
+                </a
+              >
+            </li>
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/blog"
+                >
+                  BLOG
+                </a
+              >
+            </li>
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/#contact"
+                >
+                  <i class="icon-email" aria-label="email"></i>
+                </a
+              >
+            </li>
+            <li class="nav-item">
+              <a data-scroll class="nav-link" href="/search"
+                >
+                  <i class="icon-search" aria-label="Search"></i>
+                </a
+              >
+            </li>
+            
+                     
+            <li class="dropdown language-selector nav-item">
+            
+<div id='header-language-selector'
+  class='d-grid gap-2 col-6 mx-auto nav-link dropdown  '>
+  
+  
+  <button class="btn btn-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show"
+    id='btn-select-language-header' type="button" aria-expanded="true"
+    aria-controls="languages-dropdown-header" data-bs-toggle="dropdown" data-bs-display="static"
+    aria-label='Language'>
+    <span class="label">Language</span>
+  </button>
+  <ul class='dropdown-menu dropdown-menu-end '
+    id="languages-dropdown-header" data-bs-popper="static">
+    <li class="dropdown-item current selected">
+      <span>✔️ English</span>
+    </li>
+    
+    
+  
+    
+    
+    <li class="dropdown-item choice">
+      <a class="dropdown-item translation btn-link d-flex align-items-center show" title="Deutsch"
+        href="http://localhost:1313/de/blog/devops-journey/">Deutsch</a>
+    </li>
+    
+  </ul>
+</div>
+            </li>
+            <li class="dropdown theme-selector nav-item">
+              
+                
+              
+<div id='header-color-selector'
+  class='d-grid gap-2 col-6 mx-auto nav-link dropdown  '>
+  <button class="btn btn-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show bd-theme-selector"
+    id='bd-theme-header' type="button" aria-expanded="true" data-bs-toggle="dropdown"
+    data-bs-display="static" aria-label='Toggle theme'>
+    <span class="theme-icon auto d-none" aria-hidden="true"></span>
+    <span class="current-theme">✨ Auto</span>
+    <span class="d-lg-none ms-2 visually-hidden bd-theme-text" id="bd-theme-text-header">Toggle theme</span>
+  </button>
+  <ul id="theme-dropdown-header" class="dropdown-menu dropdown-menu-end " aria-labelledby="bd-theme-text-header" data-bs-popper="static">
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="light"
+        aria-pressed="true">
+        ☀️ Light
+      </button>
+    </li>
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
+        aria-pressed="false">
+        🌑 Dark
+        <span class="theme-icon dark d-none" aria-hidden="true"></span>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto"
+        aria-pressed="false">
+        ✨ Auto
+        <span class="theme-icon light d-none" aria-hidden="true"></span>
+      </button>
+    </li>
+  </ul>
+</div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </div>
+</header> 
+  <section id="breadcrumb-bar" class="breadcrumb-bar container">
+    <ul class="breadcrumbs d-print-none">
+        <li class="breadcrum-item"><span><a href="/">Home</a></span></li><li class="breadcrum-item"><span><a href="/blog">Blog</a></span></li><li class="breadcrum-item current">Devops Journey</li></ul>
+</section>
+
+
+    <main class="container">
+        
+<section id="blog-single" class="blog-single section section--border-bottom rad-animation-group flex-grow-1">
+  <div id="main-content">
+    <h1><a href="/blog/devops-journey/">Devops Journey</a></h1>
+
+    <aside id="meta" class="light-border-bottom">
+      <div>
+        <section>
+          Published on 
+          <h4 id="date">Mon May 5, 2025</h4>
+          ·
+          <h4 id="wordcount">480 Words</h4>
+        </section>
+         
+        <ul class="tags">
+          
+          <li><a href="/tags/devops/">Devops</a></li>
+          
+          <li><a href="/tags/general/">General</a></li>
+          
+        </ul>
+        
+      </div>
+    </aside>
+
+    <div class="row flex-column-reverse flex-md-row rad-fade-down">
+      <div class="col-12"><p>I never planned to become a DevOps engineer.</p>
+<p>In fact, I started my career over a decade ago as a <strong>backend developer</strong>, building APIs and systems for U.S. clients. I spent six years immersed in clean code, business logic, and scaling server-side applications. But as time passed, I realized that writing code was only part of building reliable software — the real magic (and sometimes the chaos) happened after deployment.</p>
+<p>That&rsquo;s when I made the shift.</p>
+<h2 id="-what-pulled-me-into-devops">💡 What Pulled Me into DevOps?</h2>
+<p>Around five years ago, I found myself constantly stepping in to troubleshoot CI failures, misconfigured servers, and release rollbacks. I realized that <strong>developer efficiency, observability, and infrastructure automation</strong> were areas I naturally gravitated toward.</p>
+<p>So I leaned in.</p>
+<p>I learned tools like <strong>Terraform, Kubernetes, Helm, GitLab CI/CD, Prometheus, Grafana, AWS, and Crossplane</strong>. What started as a side responsibility eventually became a full transition into DevOps and Site Reliability Engineering (SRE).</p>
+<h2 id="-what-ive-built-so-far">🔧 What I&rsquo;ve Built So Far</h2>
+<ul>
+<li>Set up <strong>GitLab CI/CD pipelines</strong> that automatically build, test, and deploy microservices to Kubernetes clusters.</li>
+<li>Used <strong>ArgoCD and GitOps</strong> principles to manage app lifecycles across staging and production environments.</li>
+<li>Implemented <strong>ELK and Prometheus/Grafana</strong> stacks for observability and proactive monitoring.</li>
+<li>Migrated infrastructure from manual provisioning to <strong>Terraform-as-code</strong>, making environments reproducible and consistent.</li>
+<li>Introduced <strong>Crossplane</strong> for dynamic provisioning of AWS resources using Kubernetes-native workflows.</li>
+</ul>
+<p>Each of these projects taught me one big lesson: <strong>automation is not about writing scripts — it&rsquo;s about building trust in systems</strong>.</p>
+<h2 id="-the-hard-lessons">⚠️ The Hard Lessons</h2>
+<p>This journey wasn’t smooth. I’ve:</p>
+<ul>
+<li>Debugged broken Helm deployments under pressure</li>
+<li>Misconfigured resource limits that caused outages</li>
+<li>Accidentally triggered large-scale restarts through a faulty GitLab pipeline</li>
+<li>Dealt with legacy systems with no documentation</li>
+</ul>
+<p>But every failure refined my approach. DevOps isn’t about perfection — it’s about continuous <strong>learning, recovery, and resilience</strong>.</p>
+<h2 id="-where-im-headed-next">🌱 Where I&rsquo;m Headed Next</h2>
+<p>Right now, I’m focused on:</p>
+<ul>
+<li>Deepening my expertise in <strong>Kubernetes security and cost optimization</strong></li>
+<li>Writing infrastructure design documents and <strong>improving developer onboarding</strong></li>
+<li>Exploring <strong>OpenTelemetry</strong> and <strong>Crossplane Providers</strong> written in Go</li>
+<li>Sharing more of what I’ve learned with the community (starting with this blog!)</li>
+</ul>
+<p>I’m also actively looking for <strong>a new role</strong> where I can help teams build <strong>reliable, scalable, and observable systems</strong>, while staying deeply aligned with DevOps best practices.</p>
+<h2 id="-why-im-starting-this-blog">🙏 Why I’m Starting This Blog</h2>
+<p>I want to document and share:</p>
+<ul>
+<li>Real-world DevOps problems and how I solve them</li>
+<li>Lessons from working across different tools and teams</li>
+<li>Personal reflections as I grow as a platform/SRE engineer</li>
+</ul>
+<p>If you&rsquo;re a developer transitioning into DevOps, a fellow SRE, or someone navigating tech career shifts — I hope this space gives you insight, reassurance, or even a helpful tip.</p>
+<p>Let’s learn together.</p>
+<hr>
+<p><strong>Samskrutha Swamy</strong><br>
+DevOps | SRE | Kubernetes Enthusiast<br>
+📍 Berlin, Germany</p>
+<blockquote>
+<p>💬 Let me know what topics you&rsquo;d like to read about next. You can reach out to me on <a href="https://www.linkedin.com/in/samskruth/">LinkedIn</a> or drop a comment on the post.</p></blockquote>
+</div>
+    </div>
+
+    <aside class="content-browser light-border-top">
+      Continue reading
+      <div>
+        
+        ■
+        
+      </div>
+    </aside>
+  </div>
+</section>
+
+    </main>
+
+    <div class="d-print-none">
+        <footer class="footer w-100 d-print-none">
+
+
+    
+
+    
+      
+        
+              
+      
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+  
+  
+  
+
+
+<section  id="contact" class="section section--contact pt-0">
+    <div class="container">
+        <div class="contact w-100">
+            <h2>Reach out</h2>
+
+            <div class="row pt-2">
+                <div class="col-12 col-lg-7">
+                    <form action="https://formspree.io/f/mayrkvjp" method="POST" class="contact__form">
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <input type="text" name="full_name" class="form-control" placeholder="Your name">
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input type="email" name="email" class="form-control" placeholder="Your e-mail">
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-12">
+                                <input type="text" name="phone" class="form-control" placeholder="Your phone">
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-12">
+                                <textarea name="message" class="form-control" rows="3" placeholder="Your text"></textarea>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Send message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-lg-5 contact__info">
+                    
+                    <h3>My phone</h3>
+                    <span><a href='tel:+4915210958058'>+49 1521 0958058</a></span>
+                    
+
+                    
+                    <h3>My mail</h3>
+                    <span><a href='mailto:samskruthaswamy@t-online.de'>samskruthaswamy@t-online.de</a></span>
+                    
+                    
+                    
+                    <h3>My location</h3>
+                    <span>📍 Berlin, Germany</span>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<section  id="newsletter" class="section section--cta">
+  <div class="container d-flex justify-content-center align-items-center">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2>
+           
+            Stay updated 
+          
+        </h2>
+        <div class="rad-subscription-group">
+          <form
+            id="rad-subscription"
+            action="https://formspree.io/f/mayrkvjp"
+            method="POST"
+          >
+            <input
+              id="rad-subscription-email"
+              type="email"
+              class="form-control"
+              aria-describedby="emailHelp"
+              placeholder=' Enter your email '
+              aria-label=' Enter your email '
+            >
+            <button type="submit" id="rad-subscription-submit" class="btn btn-light btn-rounded">
+               
+                Subscribe 
+              
+            </button>
+          </form>
+          <div id="rad-subscription-success" class="d-none">
+            <p class="lead">
+               
+                Thank you for subscribing! 
+              
+            </p>
+          </div>
+          <div id="rad-subscription-fail" class="d-none">
+            <p>
+               
+                Something went wrong, please try again. 
+              
+            </p>
+          </div>
+          <script src='http://localhost:1313/js/subscription.js'></script>
+        </div>
+        <small id="emailHelp" class="form-text text-muted">
+           
+            We respect your privacy and won&#39;t share your data. 
+          
+        </small>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    
+              
+      
+    
+
+  <div class="container items">
+    <div class="container">
+      <div class="row w-100 align-items-center">
+        <div class="footer_left col-12 col-lg-4 mb-3 mb-lg-0 text-center text-lg-start">
+          <div class="footer__copy">
+            <span>© Samskrutha Swamy.</span>
+          </div>
+        </div>
+        <div class="footer_links col-12 col-lg-6 mb-3 mb-lg-0 text-center text-lg-start">
+          <ul class="navbar-nav w-100 align-items-center justify-content-center justify-content-lg-start d-flex flex-wrap gap-2">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="/#about"
+                >
+                  ABOUT
+                </a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html#experience-single"
+                >
+                  EXPERIENCE
+                </a
+              >
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="/#contact"
+                >
+                  CONTACT
+                </a
+              >
+            </li>
+            
+          </ul>
+        </div>
+        <div class="footer_right col-12 col-lg-2 mb-3 mb-lg-0 text-center text-lg-end">
+          <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-2 d-grid col-12 ">
+            
+            
+            
+<div id='footer-language-selector'
+  class='d-grid gap-2 col-6 mx-auto nav-link dropdown dropup '>
+  
+  
+  <button class="btn btn-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show"
+    id='btn-select-language-footer' type="button" aria-expanded="true"
+    aria-controls="languages-dropdown-footer" data-bs-toggle="dropdown" data-bs-display="static"
+    aria-label='Language'>
+    <span class="label">Language</span>
+  </button>
+  <ul class='dropdown-menu dropdown-menu-end dropup'
+    id="languages-dropdown-footer" data-bs-popper="static">
+    <li class="dropdown-item current selected">
+      <span>✔️ English</span>
+    </li>
+    
+    
+  
+    
+    
+    <li class="dropdown-item choice">
+      <a class="dropdown-item translation btn-link d-flex align-items-center show" title="Deutsch"
+        href="http://localhost:1313/de/blog/devops-journey/">Deutsch</a>
+    </li>
+    
+  </ul>
+</div>
+            
+            
+            
+<div id='footer-color-selector'
+  class='d-grid gap-2 col-6 mx-auto nav-link dropdown dropup '>
+  <button class="btn btn-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show bd-theme-selector"
+    id='bd-theme-footer' type="button" aria-expanded="true" data-bs-toggle="dropdown"
+    data-bs-display="static" aria-label='Toggle theme'>
+    <span class="theme-icon auto d-none" aria-hidden="true"></span>
+    <span class="current-theme">✨ Auto</span>
+    <span class="d-lg-none ms-2 visually-hidden bd-theme-text" id="bd-theme-text-footer">Toggle theme</span>
+  </button>
+  <ul id="theme-dropdown-footer" class="dropdown-menu dropdown-menu-end " aria-labelledby="bd-theme-text-footer" data-bs-popper="static">
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="light"
+        aria-pressed="true">
+        ☀️ Light
+      </button>
+    </li>
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
+        aria-pressed="false">
+        🌑 Dark
+        <span class="theme-icon dark d-none" aria-hidden="true"></span>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto"
+        aria-pressed="false">
+        ✨ Auto
+        <span class="theme-icon light d-none" aria-hidden="true"></span>
+      </button>
+    </li>
+  </ul>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    
+    <script>
+  window.addEventListener("load", function() {
+    try{
+      var observer = window.lozad(".lozad", {
+        rootMargin: window.innerHeight / 2 + "px 0px",
+        threshold: 0.01
+      }); 
+      observer.observe();
+    } catch(e) {
+      console.error(e);
+    }
+  });
+</script>
+<script defer src='http://localhost:1313/js/rad-animations.js'></script>
+<script defer src='http://localhost:1313/js/library/smooth-scroll.polyfills.min.js'></script>
+<script defer src='http://localhost:1313/js/sticky-header.js'></script>
+<script defer src='http://localhost:1313/js/smooth-scroll-init.js'></script>
+<script defer src="/assets/js/vendor/bootstrap.bundle.min.0833b2e9c3a26c258476c46266e6877fc75218625162e0460be9a3a098a61c6c.js"></script>
+
+
+
+
+<script>
+  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+</script>
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Berufserfahrung on </title>
+    <link>http://localhost:1313/de/experience/</link>
+    <description>Recent content in Berufserfahrung on </description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/de/experience/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/de/experience/job-3/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/de/experience/job-3/</guid>
+      <description>&lt;h2 id=&#34;senior-devops-engineer&#34;&gt;Senior DevOps Engineer&lt;/h2&gt;&#xA;&lt;p&gt;Bei Perfood GmbH leitete ich die Entwicklung einer robusten, produktionsreifen Kubernetes-Plattform auf der &lt;strong&gt;Google Cloud Platform (GCP)&lt;/strong&gt; zur Unterstützung unserer digitalen Gesundheitsprodukte. Ich entwarf und implementierte eine GitOps-gesteuerte Infrastruktur mit &lt;strong&gt;ArgoCD&lt;/strong&gt;, um den Teams konsistente und nachvollziehbare Deployments zu ermöglichen.&lt;/p&gt;&#xA;&lt;p&gt;Mein Schwerpunkt lag auf der Infrastrukturautomatisierung mit &lt;strong&gt;Terraform&lt;/strong&gt; und &lt;strong&gt;Crossplane&lt;/strong&gt;, sicherem Geheimnismanagement mit &lt;strong&gt;Vault&lt;/strong&gt; sowie der Umsetzung einer vollständig integrierten Observability-Architektur mit &lt;strong&gt;Prometheus, Grafana, Loki und Thanos&lt;/strong&gt;. Zusätzlich entwarf ich automatisierte Backup-Strategien mithilfe von Kubernetes-CronJobs und GCS-Buckets, um Ausfallsicherheit und Wiederherstellbarkeit für PostgreSQL- und Anwendungsdaten sicherzustellen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/de/experience/job-2/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/de/experience/job-2/</guid>
+      <description>&lt;h2 id=&#34;lead-devops-engineer&#34;&gt;Lead DevOps Engineer&lt;/h2&gt;&#xA;&lt;p&gt;Bei der Hexad GmbH spielte ich eine zentrale Rolle beim Design, Aufbau und der Wartung skalierbarer, sicherer DevOps-Plattformen für mehrere kundenseitige Anwendungen. Als Lead DevOps Engineer leitete ich die DevOps-Transformation innerhalb funktionsübergreifender Teams und verband Infrastrukturautomatisierung mit agilen Entwicklungsprozessen.&lt;/p&gt;&#xA;&lt;p&gt;Ich war verantwortlich für die Architektur und Implementierung von CI/CD-Pipelines mit GitLab CI, wodurch schnellere und zuverlässigere Release-Zyklen über Entwicklungs-, Staging- und Produktionsumgebungen hinweg ermöglicht wurden. Meine Erfahrung mit Terraform, Helm und Kubernetes (EKS) ermöglichte es uns, die Infrastruktur-Bereitstellung und Applikations-Deployments zu standardisieren – und so Konfigurationsabweichungen und manuelle Fehler deutlich zu reduzieren.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/de/experience/job-1/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0100</pubDate>
+      <guid>http://localhost:1313/de/experience/job-1/</guid>
+      <description>&lt;h2 id=&#34;senior-software-engineer&#34;&gt;Senior Software Engineer&lt;/h2&gt;&#xA;&lt;p&gt;Diese Rolle bildete das Fundament meines beruflichen Wachstums in der Softwareentwicklung. Während meiner Zeit bei HCL Global Systems Inc. arbeitete ich an der Full-Stack-Entwicklung von Enterprise-Anwendungen und kooperierte eng mit funktionsübergreifenden Teams in den Bereichen Design, Qualitätssicherung und Infrastruktur.&lt;/p&gt;&#xA;&lt;p&gt;Ich war verantwortlich für den Aufbau und die Pflege zentraler Module webbasierter Systeme, die von Fortune-500-Kunden genutzt wurden – mit Fokus auf hohe Verfügbarkeit und Performance. Meine Arbeit bei HCL verschaffte mir tiefere Einblicke in Versionskontroll-Workflows, RESTful API-Integration und agile Entwicklungsmethoden, die meinen strukturierten, kollaborativen Arbeitsstil prägten.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

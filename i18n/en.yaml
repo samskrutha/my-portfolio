@@ -1,0 +1,84 @@
+## Meta tags
+- id: "meta_title"
+  translation: "Samskrutha Swamy - Lead DevOps Engineer"
+- id: "meta_description"
+  translation: "This hugo theme (Adritian) is based on Bootstrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications."
+- id: "meta_keywords"
+  translation: "DevOps, AWS, GCP, CI/CD, Automation, Kubernetes, Docker, Linux"
+- id: "meta_author"
+  translation: "Samskrutha Swamy"
+- id: "meta_image"
+  translation: "/img/general/og-image.jpg"
+
+## Header
+
+- id: "logo_alt"
+  translation: "Adritian logo"
+
+- id: "logo_text1"
+  translation: "Samskrutha"
+
+- id: "logo_text2"
+  translation: "Swamy"
+
+## General
+- id: "skipToMainContent"
+  translation: "Skip to main content"
+
+- id: "toggle_navigation"
+  translation: "Toggle navigation"
+
+## Footer
+- id: "footer_notice"
+  translation: "© Samskrutha Swamy."
+
+- id: "language"
+  translation: "Language"
+
+- id: "toggle_theme"
+  translation: "Toggle theme"
+
+- id: "theme_light"
+  translation: "☀️ Light"
+- id: "theme_dark"
+  translation: "🌑 Dark"
+- id: "theme_auto"
+  translation: "✨ Auto"
+
+## Homepage head title
+- id: "head_title"
+  translation: "Samskrutha Swamy - Lead DevOps Engineer"
+
+- id: "head_description"
+  translation: "Portfolio of Samskrutha Swamy."
+
+
+## Blog
+- id: "read_more"
+  translation: "Read more"
+
+- id: "published_on"
+  translation: "Published on "
+
+- id: "continue_reading"
+  translation: "Continue reading"
+
+## 404 Page
+- id: "404_title"
+  translation: "Page not found"
+- id: "404_description"  
+  translation: "Sorry, but the page you were looking for could not be found."
+- id: "404_button"
+  translation: "Back to homepage"
+
+## Search
+- id: search_heading
+  translation: "Search the Site"
+- id: search_placeholder
+  translation: "Type to search..."
+- id: search_results_heading
+  translation: "Matching pages"
+- id: no_js_message
+  translation: "JavaScript is required to use the search functionality. Please enable JavaScript in your browser."
+
+
