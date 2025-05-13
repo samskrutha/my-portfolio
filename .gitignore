@@ -4,12 +4,11 @@ Thumbs.db
 .tmp
 .sass-cache
 npm-debug.log
-node_modules
+/node_modules/
 builds
 /public/
 /resources/
 /npm_modules/
-node_modules/
  
 # Playwright
 /test-results/
